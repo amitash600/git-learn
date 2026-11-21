@@ -64,7 +64,7 @@ public class EmployeeController {
 //		cacheInspectionService.printCacheContents("emp");
 		cacheInspectionService.printCacheContents("empById");
 
-		return "Check IntelliJ console for cache contents";
+		return "Checking IntelliJ console for cache contents";
 	}
 	
 	@GetMapping("/salary/{salary}")
