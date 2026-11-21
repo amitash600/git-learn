@@ -21,7 +21,7 @@ import jsp.springbootclasstask.entity.Employee;
 import jsp.springbootclasstask.service.EmployeeService;
 
 @RestController
-@RequestMapping("/api/emp")
+@RequestMapping("/api/employee")
 public class EmployeeController {
 	
 	@Autowired

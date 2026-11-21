@@ -18,7 +18,7 @@ import jsp.springbootclasstask.entity.Department;
 import jsp.springbootclasstask.service.DepartmentService;
 
 @RestController
-@RequestMapping("/api/dept")
+@RequestMapping("/api/deptartment")
 public class DepartmentController {
 	@Autowired
 	private DepartmentService deptservice;
