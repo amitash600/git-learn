@@ -19,6 +19,10 @@ public class EmployeeDao {
 	@Autowired
 	private EmployeeRepository emprepo;
 
+	public void display() {
+		System.out.println("Working on feature branch");
+	}
+
 	public Employee saveEmployee(Employee emp) {
 
 		Long contactNo = emp.getContactNumber();
